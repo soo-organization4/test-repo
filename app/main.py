@@ -14,7 +14,8 @@ service = VectorService()
 
 from app.rag_service import RagService 
 rag = RagService()  
-st.title("[Git] RAG Demo (MariaDB VectorStore 기반)") 
+
+st.title("[GitHub] RAG Demo (MariaDB VectorStore 기반)") 
 
 # 1) 샘플 문서 저장
 if st.button("샘플 문서 저장"):
