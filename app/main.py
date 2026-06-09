@@ -15,7 +15,7 @@ service = VectorService()
 from app.rag_service import RagService 
 rag = RagService()  
 
-st.title("[ClaudeCode-Remote-VS-GitHub] RAG Demo")
+st.title("[Codex CLI for VS Code] RAG Demo")
 
 # 1) 샘플 문서 저장
 if st.button("샘플 문서 저장"):
